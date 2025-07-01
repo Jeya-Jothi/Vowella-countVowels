@@ -21,3 +21,22 @@
   font-size: 14px;
   color: rgb(204, 204, 204);
 }
+
+/* Responsive */
+/* Mobile */
+
+@media (max-width: 425px) {
+  .contact {
+    height: 20vh;
+  }
+  .contact-content {
+    column-gap: 20px;
+    font-size: 12px;
+  }
+  .contact-content img {
+    width: 40px;
+  }
+  .copyright-div p {
+    font-size: 10px;
+  }
+}

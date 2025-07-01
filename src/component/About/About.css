@@ -50,3 +50,40 @@
   position: relative;
   overflow: hidden;
 }
+
+/* Responsive */
+/* Mobile */
+
+@media (max-width: 425px) {
+  .head-div p {
+    padding: 10px 0px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+  .content-div {
+    font-size: 12px;
+    justify-content: none;
+    height: 85%;
+    row-gap: 10px;
+  }
+  .card-one,
+  .card-three {
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.5),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+      inset 0 0 20px 10px rgba(255, 255, 255, 1);
+  }
+  .card-two {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+  }
+  .card-two p {
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1),
+      inset 0 1px 0 rgba(255, 255, 255, 0.5),
+      inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+      inset 0 0 20px 10px rgba(255, 255, 255, 1);
+  }
+}
