@@ -30,7 +30,7 @@ function App() {
               <button>Count</button>
             </div>
             <div className="total-div">
-              <p>Total vowels:</p>
+              <p>Total vowels</p>
             </div>
           </div>
         </div>
