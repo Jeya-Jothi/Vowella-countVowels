@@ -26,7 +26,11 @@ function Card() {
         <p>Count Vowels</p>
       </div>
       <div className="card-input">
-        <textarea placeholder="Enter your text here" onChange={handleChange} />
+        <textarea
+          placeholder="Enter your text here"
+          onChange={handleChange}
+          spellCheck="false"
+        />
       </div>
       <div className="card-btn">
         <button onClick={countVowels}>Count</button>
